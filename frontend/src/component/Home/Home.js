@@ -6,16 +6,16 @@ import MetaData from "../layout/MetaData";
 import { useSelector, useDispatch } from "react-redux";
 import { getProduct } from "../../actions/productAction";
 
-const product = {
-  name: "Black Shirt",
-  image: [
-    {
-      url: "https://assets.ajio.com/medias/sys_master/root/20210403/xlEh/6068635baeb269a9e331402e/-473Wx593H-461085638-black-MODEL.jpg",
-    },
-  ],
-  price: "₹2100",
-  _id: "abhishek",
-};
+// const product = {
+//   name: "Black Shirt",
+//   image: [
+//     {
+//       url: "https://assets.ajio.com/medias/sys_master/root/20210403/xlEh/6068635baeb269a9e331402e/-473Wx593H-461085638-black-MODEL.jpg",
+//     },
+//   ],
+//   price: "₹2100",
+//   _id: "abhishek",
+// };
 
 const Home = () => {
   const dispatch = useDispatch();
