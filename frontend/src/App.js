@@ -24,12 +24,10 @@ function App() {
       {/* <Home/> */}
       <Routes>
 
-      <Route exact path="/" component={Home}/> 
-      <Route exact path="/product/:id" component={ProductDetails}/> 
-      <Route exact path="/Footer" component={Footer}/> 
+      <Route exact path="/" element={<Home/>}/> 
+      <Route exact path="/product/:id" element={<ProductDetails/>}/> 
       </Routes>
-    {/* <ProductDetails/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </Router>
   );
 }
