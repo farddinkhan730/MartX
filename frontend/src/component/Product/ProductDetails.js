@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
-// import Carousel from "react-material-ui-carousel";
-// import "./ProductDetails.css";
-// import { useSelector, useDispatch } from "react-redux";
+import Carousel from "react-material-ui-carousel";
+import "./ProductDetails.css";
+import { useSelector, useDispatch } from "react-redux";
 // import {
 //   getProductDetails,
 // } from "../../actions/productAction";
