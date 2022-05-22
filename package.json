@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "alert": "^5.0.10",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
     "cookie-parser": "^1.4.6",
@@ -23,6 +24,7 @@
     "nodemailer": "^6.7.5",
     "nodemon": "^2.0.15",
     "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
     "react-redux": "^8.0.1",
     "react-router-dom": "^6.3.0",
     "redux": "^4.2.0",

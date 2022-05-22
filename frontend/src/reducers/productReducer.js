@@ -2,13 +2,15 @@ import {
   ALL_PRODUCT_REQUEST,
   ALL_PRODUCT_SUCCESS,
   ALL_PRODUCT_FAIL,
+  PRODUCT_DETAILS_REQUEST,
+  PRODUCT_DETAILS_FAIL,
+  PRODUCT_DETAILS_SUCCESS,
   CLEAR_ERRORS,
 } from "../constants/productConstants";
 
 export const productReducer = (state = { products: [] }, action) => {
 
-  console.log((action.type== ALL_PRODUCT_SUCCESS)?action.payload.products:"");
-
+  // console.log((action.type== ALL_PRODUCT_SUCCESS)?action.payload.products:"");
   switch (action.type) {
     case ALL_PRODUCT_REQUEST:
       return {
@@ -35,6 +37,43 @@ export const productReducer = (state = { products: [] }, action) => {
         error: null,
       };
 
+    default:
+      return state;
+  }
+};
+
+
+export const productDetailsReducer = (state = { product: [] }, action) => {
+  
+  // console.log((action.type== ALL_PRODUCT_SUCCESS)?action.payload.products:"");
+  
+  
+  switch (action.type) {
+    case PRODUCT_DETAILS_REQUEST:
+      return {
+        loading: true,
+        ...state,
+      };
+  
+    case PRODUCT_DETAILS_SUCCESS:
+      return {
+        loading: false,
+        products: action.payload,
+      
+      };
+  
+    case PRODUCT_DETAILS_FAIL:
+      return {
+        loading: false,
+        error: action.payload,
+      };
+  
+    case CLEAR_ERRORS:
+      return {
+        ...state,
+        error: null,
+      };
+  
     default:
       return state;
   }
