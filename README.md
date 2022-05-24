@@ -1,47 +1,4 @@
-# MERN E-COMMERCE TUTORIAL
+MartX is an e-commerce website which allows you to buy and sell goods, services, and digital products. Using MartX, you can buy anything you want by just ordering online, sitting at home. There is no need to go anywhere. It will show you various products, including electronics products, fashion and beauty products, groceries and supplies, health and personal care, furniture and appliances books, clothing, outdoor and indoor sports, etc.
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+ In this, buyer, and seller both can log in and see what orders they have done with the real-time database reflectivity. There will be filters which use can use to customize your search. There will also a facility of giving rating and review to a product which you’ve bought recently. MartX brings convenience for customers as they do not have to leave their home and only need to browse our website online, especially for buying the products which are not sold in the nearby shops.
 
-# Prerequisite
-
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
-
-# Install Dependencies
-
-**For Backend** - `npm i`
-
-**For Frontend** - `cd frontend` ` npm i`
-
-## Env Variables
-
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
-
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
-
-## Author
-
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
