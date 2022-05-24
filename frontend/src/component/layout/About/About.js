@@ -26,7 +26,7 @@ const About = () => {
               Visit Instagram
             </Button>
             <span>
-              MartX is a e-commerce website developed by the students of GLA
+              MartX is a e-commerce website developed and built by the students of GLA
               University.
             </span>
           </div>
