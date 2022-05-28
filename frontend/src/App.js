@@ -50,8 +50,8 @@ function App() {
 
   async function getStripeApiKey() {
     const { data } = await axios.get("/api/v1/stripeapikey");
-
     setStripeApiKey(data.stripeApiKey);
+    // console.log(data);
   }
 
   useEffect(() => {
@@ -179,11 +179,11 @@ function App() {
           component={ProductReviews}
         />
 
-        <Route
+        {/* <Route
           component={
             window.location.pathname === "/process/payment" ? null : NotFound
           }
-        />
+        /> */}
       </Switch>
 
       <Footer />
