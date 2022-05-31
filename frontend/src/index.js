@@ -19,5 +19,7 @@ ReactDOM.render(
       <App />
     </AlertProvider>
   </Provider>,
+  // console.log()
   document.getElementById("root")
+  
 );
