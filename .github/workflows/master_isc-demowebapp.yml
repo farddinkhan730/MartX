@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Isc-demowebapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_867CC343088A4F9E885B3E79FAF06551 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17EF95D5CFCD4797B510BD8C9D1E2B56 }}
           package: .
